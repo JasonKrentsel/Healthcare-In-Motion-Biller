@@ -17,7 +17,16 @@ namespace MedicareBiller
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new DirectorySelect());
+
+            PatientDiscriptor patient = new PatientDiscriptor();
+            patient.name = "Jason";
+            patient.surname = "Krentsel";
+            patient.dateOfBirth = "birthday";
+            patient.HICN = "1234567890";
+
             Application.Run(new DirectorySelect());
+            //Application.Run(new PatientViewer(patient));
         }
     }
 }
