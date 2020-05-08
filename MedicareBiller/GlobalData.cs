@@ -11,8 +11,8 @@ namespace MedicareBiller
     {
         public static String downloadLocation;
         public static String OutputLocation;
-        public static String username = "p.romero@coastalmobilexray.com";
-        public static String password = "Portable1";
+        public static String username = "username/email";
+        public static String password = "password";
         public static PatientDiscriptor[] badPatients;
         public static Boolean doneWorking = false;
     }
